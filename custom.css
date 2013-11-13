@@ -1,21 +1,53 @@
 <style type="text/css">
+body {
+    text-rendering: optimizeLegibility;
+    line-height: 1.4;
+}
+section {
+    padding: 15px;
+}
 section > *:first-child:last-child {
-  display: table-cell;
-  vertical-align: middle;
-  height: 600px;
-  width: 800px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 570px;
+    width: 770px;
 }
 img {
-  max-width: 100%;
-  max-height: 600px;
+    max-width: 100%;
+    max-height: 600px;
 }
 a {
-  color: #446191;
+    color: #446191;
 }
 code.url {
-  font-family: inherit;
+    font-family: inherit;
 }
-ul, ol {
-  line-height: 1.8em;
+li {
+    margin: 0.5em 0;
+}
+figure:not(:first-child),
+figure:not(:last-child) {
+    height: auto;
+    width: auto;
+}
+figure:not(:first-child) img,
+figure:not(:last-child) img {
+    height: auto;
+}
+figure:not(:first-child) figcaption,
+figure:not(:last-child) figcaption {
+    display: none;
+}
+figure:not(:first-child) > *,
+figure:not(:last-child) > * {
+    position: relative;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+dd {
+    padding-left: 1.5em;
 }
 </style>
