@@ -2,6 +2,7 @@
 
 ![screws in all shapes and sizes](screws.jpg)
 
+<https://raw.github.com/xi/standards_talk/2013-11-13/standards.htm>
 
 # What is a standard?
 
